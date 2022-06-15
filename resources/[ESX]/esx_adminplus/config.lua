@@ -1,9 +1,9 @@
 Config = {}
-Config.Locale = 'en'
+Config.Locale = 'es'
 Config.reportCooldown = 60 --seconds
 Config.warnMax = 3  --how many warn player can get before getting kicked?
 Config.adminRanks = { -- change this as your server ranking ( default are : superadmin | admin | moderator )
-				-- 'superadmin',
+				'superadmin',
 				'admin',
 				'moderator',
 				--'jradmin',
@@ -11,6 +11,6 @@ Config.adminRanks = { -- change this as your server ranking ( default are : supe
 				--'headadmin',
 				--'moderator',
 				--'manager',
-				--'owner',
+				'owner',
 				--'developer',
             }
